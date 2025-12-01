@@ -1,3 +1,12 @@
 spring:
   application:
     name: user
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ms-user
+    username: admin
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8081

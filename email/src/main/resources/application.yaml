@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: email
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ms-email
+    username: admin
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8082
